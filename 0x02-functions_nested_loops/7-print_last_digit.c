@@ -9,8 +9,18 @@
 
 int print_last_digit(int var)
 {
+	int lastDigit;
+
 	if (var < 0)
-		var = var * -1;
-	_putchar((var % 10) + '0');
-	return (var % 10);
+	{
+		lastDigit = (var % 10) * -1;
+		_putchar(lastDigit + '0');
+		return (lastDigit);
+	}
+	else
+	{
+		lastDigit = var % 10;
+		_putchar(lastDigit + '0');
+		return (lastDigit);
+	}
 }
