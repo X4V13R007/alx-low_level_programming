@@ -19,7 +19,7 @@ void print_times_table(int n)
 		{
 			k = i * j;
 			print_int_as_char(k, j);
-	
+
 			if (j != n)
 			{
 				_putchar(',');
