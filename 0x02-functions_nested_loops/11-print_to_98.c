@@ -1,14 +1,34 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * add - add 2 integers
- * @var1: first integer
- * @var2: second integer
- *
- * Return: the integer sum of var1 and var2
+ * print_to_98 - Prints all natural numbers from n to 98
+ * @n: The number to check
  */
-
-int add(int var1, int var2)
+void print_to_98(int n)
 {
-	return (var1 + var2);
+	if (n > 98)
+	{
+		while (n >= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n--;
+		}
+	}
+	else
+	{
+		while (n <= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n++;
+		}
+	}
+	printf("\n");
 }
