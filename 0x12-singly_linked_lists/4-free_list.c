@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- *free_list - Frees a list
- *@head: A pointer to the list head
- *
+ * free_list - free linked list
+ * @head: pointer to the linked list
  */
 
 void free_list(list_t *head)
@@ -12,8 +11,8 @@ void free_list(list_t *head)
 
 	while (head)
 	{
-		tmp = head->next;
 		free(head->str);
+		tmp = head->next;
 		free(head);
 		head = tmp;
 	}
