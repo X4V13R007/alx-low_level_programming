@@ -1,1 +1,1 @@
-A Project directory for linked lists
+A directory containing task on linked data structure
