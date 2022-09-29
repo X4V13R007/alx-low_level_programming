@@ -1,1 +1,1 @@
-I've recently began my software engineering carrer at ALX, and as part of the leearning requirement, C programming language was introduced. This repository would enable me to keep track of all the projects carried out.
+I've recently began my software engineering career at ALX, and as part of the learning requirement, C programming language was introduced. This repository would enable me to keep track of all the projects carried out.
