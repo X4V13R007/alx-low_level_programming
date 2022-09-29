@@ -1,1 +1,1 @@
-this is a directory containing tasks on doubly linked lists in C
+This is a directory containing solutions to the double linked lost project in C programming language
